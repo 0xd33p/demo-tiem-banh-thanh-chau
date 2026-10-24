@@ -2,7 +2,7 @@ name: Decode images
 on:
   push:
     branches: [main]
-    paths: ['b64/**']
+    paths: ['b64/DONE']
   workflow_dispatch:
 permissions:
   contents: write
